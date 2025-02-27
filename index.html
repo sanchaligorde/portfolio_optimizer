@@ -6,38 +6,67 @@
     <title>Financial Portfolio Optimizer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
             background-color: #f4f4f4;
-            padding: 40px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         .container {
-            max-width: 700px;
-            margin: auto;
+            max-width: 800px;
+            width: 90%;
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
         h1 {
             color: #333;
+            font-size: 32px;
         }
         p {
             font-size: 18px;
             color: #555;
+            line-height: 1.6;
+        }
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
         }
         .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 20px;
-            font-size: 16px;
+            padding: 14px 24px;
+            font-size: 18px;
             color: white;
-            background: #007bff;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 6px;
+            transition: background 0.3s;
         }
-        .button:hover {
-            background: #0056b3;
+        .github-button {
+            background: #333;
+        }
+        .github-button:hover {
+            background: #555;
+        }
+        .streamlit-button {
+            background: #ff4b4b;
+        }
+        .streamlit-button:hover {
+            background: #e03e3e;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            color: #444;
+            margin: 8px 0;
         }
     </style>
 </head>
@@ -48,15 +77,17 @@
         <p>A Python-based tool to help investors construct optimized stock portfolios using Modern Portfolio Theory.</p>
 
         <h2>Features:</h2>
-        <ul style="text-align: left; display: inline-block;">
-            <li>Efficient Frontier Analysis</li>
-            <li>Portfolio Risk & Return Calculations</li>
-            <li>Custom Stock Selection (NIFTY 50)</li>
-            <li>Interactive Streamlit Web App</li>
+        <ul>
+            <li>📈 Efficient Frontier Analysis</li>
+            <li>📊 Portfolio Risk & Return Calculations</li>
+            <li>📌 Custom Stock Selection (NIFTY 50)</li>
+            <li>⚡ Interactive Streamlit Web App</li>
         </ul>
 
-        <a href="https://github.com/sanchaligorde/portfolio_optimizer" class="button">View on GitHub</a>
-        <a href="https://portfolioptimizer01.streamlit.app/" class="button" style="background: #28a745;">Run on Streamlit</a>
+        <div class="button-container">
+            <a href="https://github.com/sanchaligorde/portfolio_optimizer" class="button github-button">View on GitHub</a>
+            <a href="https://portfolioptimizer01.streamlit.app/" class="button streamlit-button">Run on Streamlit</a>
+        </div>
     </div>
 
 </body>
