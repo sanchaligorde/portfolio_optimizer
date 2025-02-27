@@ -108,7 +108,7 @@ This project is open-source and available under the **MIT License**.
 ### ⭐ Contributions & Feedback
 
 - Feel free to **fork**, **star**, or **raise issues**!
-- Suggestions? Connect with me on **[LinkedIn](www.linkedin.com/in/sanchali-gorde-b93809223)** or open a GitHub issue.
+- Suggestions? Connect with me on **[LinkedIn](https://www.linkedin.com/in/sanchali-gorde-b93809223)** or open a GitHub issue.
 
 ---
 
