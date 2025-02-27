@@ -112,5 +112,5 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-🔗 **GitHub Repository**: [[https://github.com/sanchaligorde/portfolio-optimizer](https://github.com/sanchaligorde/portfolio-optimizer)](https://sanchaligorde.github.io/portfolio_optimizer/)
+🔗 **GitHub Repository**: (https://sanchaligorde.github.io/portfolio_optimizer/)
 
