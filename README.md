@@ -25,8 +25,8 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-optimizer.git
-   cd portfolio-optimizer
+   git clone https://github.com/sanchaligorde/portfolio_optimizer.git
+   cd portfolio_optimizer
    ```
 2. Install required dependencies:
    ```bash
@@ -34,7 +34,7 @@ To run this project locally:
    ```
 3. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run financial_portfolio_optimizer.py
    ```
 
 ---
@@ -108,7 +108,7 @@ This project is open-source and available under the **MIT License**.
 ### ⭐ Contributions & Feedback
 
 - Feel free to **fork**, **star**, or **raise issues**!
-- Suggestions? Connect with me on **[LinkedIn](https://www.linkedin.com/in/yourprofile/)** or open a GitHub issue.
+- Suggestions? Connect with me on **[LinkedIn](www.linkedin.com/in/sanchali-gorde-b93809223)** or open a GitHub issue.
 
 ---
 
